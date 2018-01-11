@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sudo apt-get install -y xserver-xorg-video-dummy xserver-xorg-input-void xserver-xorg-core xinit x11-xserver-utils vlc libavcodec-extra xserver-xorg-input-all xterm bc libav-tools --no-install-recommends
