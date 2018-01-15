@@ -3,11 +3,14 @@ testing vimwa
 
 Before getting started: if you wish to use VIMWA with an external display, the display should be connected before configuring displays.
 
+first, clone the project on you home directory
 
 Setting the Machine
 
 Setting the workdir and sourcing the vimwa.sh script  
 ```echo -e "cd ~/vimwa_test >> ~/.bashrc"```
+```echo -e "source ~/vimwa_test/vimwa.sh"```  
+  
 
 
 Setting up VIMWA
@@ -17,9 +20,12 @@ Setting up VIMWA
 ```deps_install```  
 ```configure```  
 First, you should set up the displays ( and do it again whenever you want to set up a different display configuration), this allows you to enable/disable attached displays (internal and external)  
+  
 Then, you should set the resources, You must do this step every time you want to change the resources, number of rows and collumns or have changed the display settings (MUST DO IT)  
+  
 The resources list should be in a file. (defaults to urls.txt)  
 
+  
 After exiting the configuration script, it's time to overwrite the ~/.xinitrc file. you can do it easily with the following command.  
 ```overwrite_xinit```  
   
