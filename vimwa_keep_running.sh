@@ -3,10 +3,10 @@
 #make sure a process is always running.
 
 export DISPLAY=:0 #needed if you are running a simple gui app.
-xrandr_command=$(cat displays.conf)
+xrandr_command=$(cat ~/vimwa_test/displays.conf)
 $xrandr_command
 sleep 2
-list=`cat vimwa.conf`
+list=`cat ~/vimwa_test/vimwa.conf`
 rm keep_log.txt
 echo -e "$list" >> keep_log.txt
 while sleep 5 ; do
