@@ -6,16 +6,16 @@ Before getting started: if you wish to use VIMWA with an external display, the d
 
 Setting the Machine
 
-Setting the workdir and sourcing the vimwa.sh script
+Setting the workdir and sourcing the vimwa.sh script  
 ```echo -e "cd ~/vimwa_test >> ~/.bashrc"```
 
 
 Setting up VIMWA
 
-```cd vimwa_test```
-```source vimwa.sh```
-```deps_install```
-```configure```
+```cd vimwa_test```  
+```source vimwa.sh```  
+```deps_install```  
+```configure```  
 First, you should set up the displays ( and do it again whenever you want to set up a different display configuration), this allows you to enable/disable attached displays (internal and external)
 Then, you should set the resources, You must do this step every time you want to change the resources, number of rows and collumns or have changed the display settings (MUST DO IT)
 The resources list should be in a file. (defaults to urls.txt)
